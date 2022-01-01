@@ -3,7 +3,7 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 const bodyParser = require('body-parser'); // Part #1 Point 2
-const nav = require ('./src/data/nav'); // Part #2 Point 6
+const nav = require ('./src/data/nav'); // Part #2 Point 6  
 
 // const nav= [
 //     {
@@ -27,7 +27,7 @@ const nav = require ('./src/data/nav'); // Part #2 Point 6
 
 const loginRouter = require('./src/routes/loginroute');
 const signupRouter = require('./src/routes/signuproute');
-const homeRouter = require('./src/routes/homerouter');      // Part #1 Point 3 
+const homeRouter = require('./src/routes/homerouter');      // Part #1 Point 3 (homerouter spelling)
 const booksRouter = require('./src/routes/booksroute');
 const authorsRouter = require('./src/routes/authorsroute');
 
